@@ -9,6 +9,9 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 ########################################
 # 環境変数
 export LANG=ja_JP.UTF-8
+export DOCKER_HOST=tcp://192.168.59.103:2376
+export DOCKER_CERT_PATH=/Users/ryuta/.boot2docker/certs/boot2docker-vm
+export DOCKER_TLS_VERIFY=1
  
  
 # 色を使用出来るようにする
