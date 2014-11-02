@@ -1,5 +1,5 @@
 # DOT_FILES=( .zshrc .zshrc.env .gitconfig .screenrc .vimrc .vim .tmux.conf .tmux-powerline)
-DOT_FILES=(.gitconfig .vimrc)
+DOT_FILES=(.gitconfig .vimrc .vimrc_first.vim .zshrc .zshenv)
 
 for file in ${DOT_FILES[@]}
 do
