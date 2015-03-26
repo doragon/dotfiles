@@ -1,11 +1,9 @@
 # dotfiles
 
-```
-$ cd ~/
-$ git clone git@github.com:doragon/dotfiles.git
-$ cd dotfiles
-$ bash bootstrap.sh
-```
+## alias
+
+ - docker
+   - [tcnksm/docker-alias](https://github.com/tcnksm/docker-alias)
 
 ## pyenv
 
