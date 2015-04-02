@@ -1,5 +1,3 @@
-# dotfiles
-
 ## alias
 
  - docker
@@ -15,6 +13,8 @@ $ pyenv global 2.7
 ```
 
 ## pip
+
+ - ipython-notebook
 
 ```
 $ pip install -r requirements.txt

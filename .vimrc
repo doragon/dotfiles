@@ -47,7 +47,7 @@ set wildmenu wildmode=list:longest,full
 set history=10000
  
 """ setting background
-highlight Normal ctermbg=black ctermfg=grey
+"highlight Normal ctermbg=black ctermfg=grey
 highlight StatusLine term=none cterm=none ctermfg=black ctermbg=grey
 highlight CursorLine term=none cterm=none ctermfg=none ctermbg=darkgray
 

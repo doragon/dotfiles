@@ -6,3 +6,6 @@ ipython
 pyzmq
 pygments
 ansible
+requests
+pylint
+pyyaml
