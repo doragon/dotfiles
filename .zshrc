@@ -182,6 +182,9 @@ alias dkd="docker run -d -P"
 # Run interactive container, e.g., $dki base /bin/bash
 alias dki="docker run -i -t -P"
 
+# Exec to bash in latest container
+dbash() { docker exec -i -t $(docker ps -l -q) bash; }
+
 # Stop all containers
 dstop() { docker stop $(docker ps -a -q); }
 
